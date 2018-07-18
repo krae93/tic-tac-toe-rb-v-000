@@ -12,3 +12,12 @@ end
 def move(board, index, char = "X")
   board[index] = char
 end
+def position_taken? (board, index)
+   if board[index] == "X" || board[index] == "O"
+     return true
+   elsif board[index] != "  "
+     return false
+   elsif board[index] == " string "
+     return true
+   end
+end
