@@ -53,7 +53,7 @@ def position_taken?(board, index)
    end
    counter
  end
- 
+
  def current_player(board)
    turn_count(board) %2 == 0 ? player = "X" : player = "O"
    player
